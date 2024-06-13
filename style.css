@@ -1,0 +1,29 @@
+.topsection {
+    background-color: #1F2937;
+}
+
+.heromaintext {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.herosecondarytext {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.quotesection {
+    background-color: #E5E7EB;
+}
+
+.quotetext {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.footer {
+    background-color: #1F2937;
+
+}
