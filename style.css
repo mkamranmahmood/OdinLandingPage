@@ -1,5 +1,44 @@
 .topsection {
     background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.headerlogo{
+    font-weight: bold;
+}
+
+.headerlinks{
+    display: flex;
+    gap: 10px;
+}
+
+.herobar{
+    padding: 20px 50px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.herobarleft{
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    align-content: center;
+}
+
+.herobarright{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    background-color: grey;
+    flex-basis: 50%;
+    
 }
 
 .heromaintext {
@@ -13,8 +52,47 @@
     color: #E5E7EB
 }
 
+button{
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #3882F6;
+    min-width: 100px;
+    color: white;
+
+}
+
+.signupbutton{
+    border: none;
+}
+
+.galleryheader{
+    text-align: center;
+    font-weight: 900;
+    padding: 10px;
+    font-size: 36px;
+    color: #1F2937;
+}
+.gallerysection{
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+    gap: 30px;
+}
+.item{
+    display:flex;
+    width: 100px;
+    min-height: 100px;
+}
+
+.itemimage{
+    background-color: black;
+    height: 100px;
+}
+
 .quotesection {
     background-color: #E5E7EB;
+    padding: 40px;
 }
 
 .quotetext {
@@ -23,7 +101,42 @@
     font-style: italic;
 }
 
+.quoteauthor{
+    text-align: right;
+    font-weight: bold;
+}
+
+.calltoactionwrapper{
+    background-color: white;
+    padding: 30px 50px;
+    display: flex;
+
+}
+
+.calltoaction{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 20px 40px;
+}
+
+.calltoactiontext{
+    display: flex;
+    justify-content: space-between;
+}
+
+.calltoactionbold{
+    font-style: bold;
+}
+
+.calltoactionrhs{
+    align-items: center;
+}
+
+
 .footer {
     background-color: #1F2937;
-
+    color: #F9FAF8;
+    text-align: center;
+    padding: 10px;
 }
